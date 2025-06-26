@@ -1,0 +1,131 @@
+.skill-card {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    min-width: 0;
+    padding: 8px 16px;
+}
+
+.skill-card img {
+    flex-shrink: 0;
+    margin-right: 12px;
+}
+
+.skill-label {
+    width: 90px;
+    flex-shrink: 0;
+    text-align: left;
+}
+
+.skill-card .progress {
+    flex: 1 1 0;
+    min-width: 0;
+    margin-left: 12px;
+    background: #e7eaf6;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.skill-card .progress-bar {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    padding-left: 12px;
+    border-radius: 8px;
+}
+
+.navbar, footer {
+    background: rgba(210, 224, 236, 0.85) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: #4a5a6a !important;
+    box-shadow: 0 2px 16px 0 rgba(74, 90, 106, 0.08);
+}
+
+.navbar .nav-link, .navbar-brand {
+    color: #4a5a6a !important;
+    letter-spacing: 1px;
+}
+
+.navbar .nav-link.active, .navbar .nav-link:hover {
+    color: #a3b8cc !important;
+    text-shadow: 0 1px 8px #a3b8cc55;
+}
+
+#profile {
+    background: linear-gradient(135deg, #e3eaf2 0%, #cfd8dc 100%);
+}
+#education {
+    background: linear-gradient(135deg, #e7eaf6 0%, #d6e4ec 100%);
+}
+#experience {
+    background: linear-gradient(135deg, #d6e4ec 0%, #e3eaf2 100%);
+}
+#skills {
+    background: linear-gradient(135deg, #e3eaf2 0%, #e7eaf6 100%);
+}
+#contact {
+    background: linear-gradient(135deg, #e7eaf6 0%, #cfd8dc 100%);
+}
+
+.card, .skill-card, .list-group-item {
+    background: rgba(255,255,255,0.7);
+    border-radius: 16px !important;
+    border: 2px solid #d6e4ec !important;
+    box-shadow: 0 4px 24px 0 rgba(74, 90, 106, 0.10);
+    color: #4a5a6a;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+}
+
+.progress-bar {
+    color: #4a5a6a;
+    font-weight: bold;
+    text-shadow: 0 1px 2px #fff8;
+    border-radius: 8px;
+}
+.progress-bar-light {
+    background: linear-gradient(90deg, #b7cbe3 0%, #e7eaf6 100%) !important;
+}
+.progress-bar-medium {
+    background: linear-gradient(90deg, #a3b8cc 0%, #b7cbe3 100%) !important;
+}
+.progress-bar-dark {
+    background: linear-gradient(90deg, #4a5a6a 0%, #a3b8cc 100%) !important;
+}
+
+button, .btn {
+    background: linear-gradient(90deg, #a3b8cc 0%, #b7cbe3 100%);
+    color: #4a5a6a;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: background 0.3s, color 0.3s;
+    box-shadow: 0 2px 8px 0 rgba(74, 90, 106, 0.08);
+}
+button:hover, .btn:hover {
+    background: linear-gradient(90deg, #4a5a6a 0%, #a3b8cc 100%);
+    color: #fff;
+}
+
+a, a:hover, a:focus {
+    color: #4a5a6a;
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+
+a:hover, a:focus {
+    color: #a3b8cc;
+}
+
+footer {
+    background: rgba(210, 224, 236, 0.85) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: #4a5a6a !important;
+    border-top: 2px solid #b7cbe3;
+}
